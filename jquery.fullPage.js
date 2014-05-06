@@ -139,7 +139,8 @@
 		var isResizing = false;
 		var lastScrolledDestiny;
 		var lastScrolledSlide;
-
+		
+		$.fn.fullpage.setAllowScrolling(false);
 		$.fn.fullpage.setAllowScrolling(true);
 		
 		//if css3 is not supported, it will use jQuery animations
